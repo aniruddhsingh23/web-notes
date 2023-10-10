@@ -1,0 +1,125 @@
+.main {
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../../7.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.text-col {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    /* margin-bottom: 140px; */
+
+}
+
+.text-col h1 {
+    font-size: 85px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.text-col p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.button-click {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.button-click a button {
+    padding: 8px 48px;
+}
+
+@media (max-width:1388px) {
+
+    .text-col h1 {
+        font-size: 80px;
+
+    }
+
+    .text-col p {
+        font-size: 27px;
+
+    }
+}
+
+@media (max-width:1297px) {
+
+    .text-col h1 {
+        font-size: 70px;
+
+    }
+
+    .text-col p {
+        font-size: 27px;
+
+    }
+}
+
+@media (max-width:1100px) {
+
+    .text-col h1 {
+        font-size: 60px;
+
+    }
+
+    .text-col p {
+        font-size: 22px;
+
+    }
+
+
+
+    .button-click {
+
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:800px) {
+
+    .text-col h1 {
+        font-size: 50px;
+
+    }
+
+    .text-col p {
+        font-size: 19px;
+
+    }
+
+
+}
+
+@media (max-width:500px) {
+
+    .text-col h1 {
+        font-size: 37px;
+
+    }
+
+    .text-col p {
+        font-size: 15px;
+
+    }
+
+
+
+    .button-click {
+
+        margin-top: 30px;
+    }
+
+    .button-click a button {
+        padding: 8px 43px;
+    }
+}

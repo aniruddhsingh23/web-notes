@@ -1,0 +1,35 @@
+.heading {
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media(max-width:1000px) {
+    .heading {
+        font-size: 50px;
+
+    }
+
+}
+
+@media(max-width:800px) {
+    .heading {
+        font-size: 40px;
+
+    }
+
+}
+
+@media(max-width:500px) {
+    .heading {
+        font-size: 30px;
+
+    }
+
+}
