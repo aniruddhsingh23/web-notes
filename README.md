@@ -18,6 +18,4 @@ Install dependencies "npm install" in client as well as server
 
 In the server directory create a .env file and add the PORT, MANGODB, NODE_ENV and JWT_SECRET KEY into it.
 
-To run the server execute "npm start" in server first.
-
-to run the client execute "npm start" in client.
+To run the server and client execute "npm start" in client.
