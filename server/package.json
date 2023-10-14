@@ -12,7 +12,7 @@
     "dev": "concurrently \"npm start\" \"npm run client\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Aniruddh Singh",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
